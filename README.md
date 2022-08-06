@@ -7,7 +7,7 @@ NumPy was created in 2005 by Travis Oliphant. It is an open source project and y
 NumPy stands for Numerical Python.
 to check out more about this 
 # pandas library
-Pandas is a Python library that is used for faster data analysis, data cleaning and data pre-processing. Pandas is built on top of numpy.
+Pandas is a Python library that is used for faster data analysis, data cleaning and data pre-processing.
  Pandas is built on top of numpy. So, numpy gets some superpower with pandas. You might have heard about data-frames, which is a common term in machine learning
  # sklearn.model_selection
  The package sklearn.model_selection offers a lot of functionalities related to model selection and validation, including the following: Cross-validation; Learning curves; Hyperparameter tuning; Cross-validation is a set of techniques that combine the measures of prediction performance to get more accurate model estimations. 
