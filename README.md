@@ -11,16 +11,16 @@ Pandas is a Python library that is used for faster data analysis, data cleaning 
  Pandas is built on top of numpy. So, numpy gets some superpower with pandas. You might have heard about data-frames, which is a common term in machine learning
  # sklearn.model_selection
  The package sklearn.model_selection offers a lot of functionalities related to model selection and validation, including the following: Cross-validation; Learning curves; Hyperparameter tuning; Cross-validation is a set of techniques that combine the measures of prediction performance to get more accurate model estimations. 
- # sklearn.model_selection.train_test_split
+ # sklearn.model_selection import train_test_split
  sklearn.model_selection.train_test_split(*arrays, test_size=None, train_size=None, random_state=None, shuffle=True, stratify=None)
  Split arrays or matrices into random train and test subsets.
 
 Quick utility that wraps input validation and next(ShuffleSplit().split(X, y)) and application to input data into a single call for splitting (and optionally subsampling) data in a oneliner.
 
- #  sklearn.model_selection import logistic regression
+ #  sklearn.linear_model import logistic regression
  sklearn.linear_model.LogisticRegression(penalty='l2', *, dual=False, tol=0.0001, C=1.0, fit_intercept=True, intercept_scaling=1, class_weight=None, random_state=None, solver='lbfgs', max_iter=100, multi_class='auto', verbose=0, warm_start=False, n_jobs=None, l1_ratio=None)
  
-#  sklearn.model_selection import accuracy_score
+#  sklearn.metrics import accuracy_score
 sklearn.metrics.accuracy_score(y_true, y_pred, *, normalize=True, sample_weight=None)
 Accuracy classification score.
 
